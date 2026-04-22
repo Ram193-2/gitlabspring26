@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-
+void dcFun(void);
 
 
 
@@ -104,6 +104,7 @@ int main(int argc, char *argv[])
 			}
 			case 14:
 			{
+				dcFun();
 				puts("room14");
 				break;
 			}
@@ -423,3 +424,8 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void dcFun(void)
+{
+	printf("DC\n");
+}
+
