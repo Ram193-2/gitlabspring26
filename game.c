@@ -40,6 +40,7 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void dleyva14(void);
+void sgarcia6(void);
 
 int main(int argc, char *argv[])
 {
@@ -86,6 +87,7 @@ int main(int argc, char *argv[])
 			}
 			case 6:
 			{
+				sgarcia6();
 				puts("room6");
 				break;
 			}
@@ -604,7 +606,10 @@ void dleyva14(void)
 	printf("DL\n");
 }
 
-
+void sgarcia6(void)
+   {
+       printf("SG");
+   }
 
 
 
