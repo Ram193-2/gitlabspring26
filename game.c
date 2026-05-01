@@ -3,6 +3,11 @@
 //LS
 //Ryan Rodriguez
 //Charles Parker
+//Kristopher Willett
+//
+//
+//
+
 void ANFUN(void);
 
 
@@ -48,6 +53,12 @@ void PogoAM(void);
 void room49game(void);
 
 void dleyva14(void);
+void printdAfeworkIntials(void);
+
+void kwillett48(void);
+
+void ncInitial(void);
+
 
 
 int main(int argc, char *argv[])
@@ -149,6 +160,7 @@ int main(int argc, char *argv[])
 			}
 			case 15:
 			{
+				ncInitial();
 				puts("room15");
 				break;
 			}
@@ -187,6 +199,7 @@ int main(int argc, char *argv[])
 			case 22:
 			{
 				puts("room22");
+				printdAfeworkIntials();
 				break;
 			}
 			case 23:
@@ -329,6 +342,7 @@ int main(int argc, char *argv[])
 			}
 			case 48:
 			{
+				kwillett48();
 				puts("room48");
 				break;
 			}
@@ -650,6 +664,23 @@ void dleyva14(void)
 {
 	printf("DL\n");
 }
+
+void printdAfeworkIntials(void)
+{
+	puts("DA");
+}
+
+
+void kwillett48(void)
+{
+	printf("KDW");
+}
+
+void ncInitial(void)
+{
+	printf("NC");
+}
+
 
 
 
